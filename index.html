@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="index.css" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container align-items-center">
+    <header>
+      <h1>API Toys Decutmentation</h1>
+    </header>
+    <main>
+      <div>
+        <div class="box">
+          <h2>GET</h2>
+          Search for a specific item, for example, train: <a
+            href="https://toys2.herokuapp.com/toys?s=train">"https://toys2.herokuapp.com/toys?s=train" </a>
+          <br>
+          to get specific page: <a href="https://toys2.herokuapp.com/toys?page=1">
+            "https://toys2.herokuapp.com/toys?page=1"</a>
+          <br>
+          Get a certain number of items on the page, for example 5: <a
+            href="https://toys2.herokuapp.com/toys?perPage=5">"https://toys2.herokuapp.com/toys?perPage=5"</a>
+          <br>
+
+
+
+          Sort by name or information: For example Train: <a href="https://toys2.herokuapp.com/toys?sort=train">
+            "https://toys2.herokuapp.com/toys?sort=train"</a>
+          <br>
+          <!-- רוורס -->
+          <!-- Get a certain number of items on the page, for example 5: "https://toys2.herokuapp.com/toys?perPage=5"
+       <br> -->
+          Search for an item by minimum price, for example 10: <a href="https://toys2.herokuapp.com/toys?min=10">
+            "https://toys2.herokuapp.com/toys?min=10"</a>
+          <br>
+          Search for an item by maximum price, for example 100: <a
+            href="https://toys2.herokuapp.com/toys?max=100">"https://toys2.herokuapp.com/toys?max=100"</a>
+          <br>
+          <hr>
+        </div>
+        <div class="box">
+          <h2>POST</h2>
+          To add an item: <a href="https://toys2.herokuapp.com/toys"> "https://toys2.herokuapp.com/toys"</a>
+
+          <br>
+          <hr>
+        </div>
+        <div class="box">
+          <h2>PUT</h2>
+          To edit an item: <a
+            href="https://toys2.herokuapp.com/toys/(The id of the item)">"https://toys2.herokuapp.com/toys/(The id of
+            the item)"</a>
+
+          <br>
+          <hr>
+        </div>
+        <div class="box">
+          <h2>DELETE</h2>
+          To delete an item: <a href="https://toys2.herokuapp.com/toys/(The id of the item)">
+            "https://toys2.herokuapp.com/toys/(The id of the item)"</a>
+        </div>
+      </div>
+
+    </main>
+    <footer">
+      </footer>
+  </div>
+</body>

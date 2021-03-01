@@ -1,0 +1,61 @@
+body {
+ width: 100%;
+ height: 100%;
+ background-color: lightcoral;
+}
+
+body {
+ font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+ color: crimson;
+ transition: all .35s;
+}
+
+a:hover, a:focus {
+ color: #fcbd20;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+ font-weight: 200;
+ letter-spacing: 1px;
+}
+
+header {
+ width: 100%;
+ padding-top: 30px;
+ padding-bottom: 10px;
+}
+
+header {
+ max-width: 500px;
+ margin-bottom: 100px;
+ text-align: center;
+ font-size: 30px;
+ font-family: "Arial Black", sans-serif;
+ font-size: 4.5em;
+ letter-spacing: -1px;
+ color: black;
+}
+
+.container {
+ max-width: 700px;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.box{
+ border-color: black;
+ border-width: 5px;
+border-style: hidden;
+}
+
+
+
+
